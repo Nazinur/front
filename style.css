@@ -1,0 +1,40 @@
+.block{
+width: 200px;
+height: 200px;
+background: red;
+border-radius: 50%;
+box-shadow: 8px 5px 10px 15px;
+animation: Umar 3s alternate;
+}
+@keyframes Umar{
+    0%{
+ transform: translateX 500px;
+ opacity: 0;
+    }
+    50%{
+opacity: o.5;
+    }
+    100%{
+transform: translate 0;
+opacity: 1;
+    }
+}
+.block2{
+width: 200px;
+height: 200px;
+background: green;
+border-radius: 50%;
+box-shadow: 8px 5px 10px 15px;
+animation: Umar 3s alternate;
+}
+.block3{
+width: 200px;
+height: 200px;
+background: blue;
+border-radius: 50%;
+box-shadow: 8px 5px 10px 15px;
+animation: Umar 3s alternate;
+}
+body{
+    background: black;
+}
